@@ -243,6 +243,33 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- WhatsApp Circular Button -->
+<a href="https://wa.me/254710663282?text=Hello%2C%20I%20would%20like%20to%20book%20a%20photo%20session." 
+   class="whatsapp-float" target="_blank" title="Book a photo session on WhatsApp">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="40" height="40">
+</a>
+
+<style>
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+    background-color: #25D366;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+  }
+
+  .whatsapp-float img {
+    display: block;
+  }
+</style>
 
 </body>
 
